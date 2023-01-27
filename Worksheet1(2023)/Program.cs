@@ -3,7 +3,7 @@
 
 * Name : Andrew Keown 
 
-* Desc : Question 1 
+* Desc : Question 1 (A)
 
 * Write a method called PrintIntegersFor which uses a for loop to print all the integers 
 
@@ -20,15 +20,17 @@
         static void Main(string[] args)
 
         {
-
+            
             PrintIntegersFor();
-
+            PrintIntegersWhile();
         }
 
 
 
 
-
+        /*
+         * Question1 (A)
+         */
         static void PrintIntegersFor()
 
         {
@@ -43,6 +45,32 @@
 
         }
 
+        /* 
+         * Question2 (B)
+         * Desc : Write a second method called PrintIntegersWhile
+         * using a while loop
+         */
+
+        static void PrintIntegersWhile()
+
+        {
+            int x = 40;
+            int y = 60;
+            while (x > y)
+
+            {
+
+                Console.Write(x);
+                x++;
+
+
+            }
+                    
+
+
+
+
+        }
     }
 
 }
