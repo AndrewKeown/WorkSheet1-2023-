@@ -3,7 +3,7 @@
 
 * Name : Andrew Keown 
 
-* Desc : Question 1 (A)
+* Desc : Question 1 (A-E)
 
 * Write a method called PrintIntegersFor which uses a for loop to print all the integers 
 
@@ -32,6 +32,8 @@
 
         /*
          * Question1 (A)
+         * Write a method called PrintIntegersFor which uses a for loop to print all the integers 
+         * between 40 and 60 in ascending order to the console 
          */
         static void PrintIntegersFor()
 
