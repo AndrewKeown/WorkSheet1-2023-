@@ -23,6 +23,8 @@
             
             PrintIntegersFor();
             PrintIntegersWhile();
+            PrintIntegersDo();
+            PrintExcludingFor();
         }
 
 
@@ -46,7 +48,7 @@
         }
 
         /* 
-         * Question2 (B)
+         * Question1 (B)
          * Desc : Write a second method called PrintIntegersWhile
          * using a while loop
          */
@@ -67,6 +69,47 @@
             }
                     
         }
+
+        /*
+         * Question 1 (C)
+         * Desc : Write a third method called PrintIntegersDo
+         * using a do while loop.
+         */
+
+        static void PrintIntegersDo()
+
+        {
+            int i = 40;
+            
+
+            do
+            {
+                
+                Console.WriteLine(i);
+                i++;
+            }
+            while (i < 60);
+            
+        }
     }
 
-}
+    /*
+    * Question 1 (D)
+    * Desc : Write a method called PrintExcludingFor
+    * using a for loop
+    * excluding numbers 46 and 48
+    */
+
+         static void PrintExcludingFor()
+
+         {
+
+         for (int i = 40; i <= 60; i++)
+         {
+            Console.WriteLine(i);
+
+
+         }
+      }
+    }
+
