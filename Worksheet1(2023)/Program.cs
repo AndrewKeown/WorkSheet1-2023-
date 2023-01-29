@@ -20,11 +20,12 @@
         static void Main(string[] args)
 
         {
-            
+
             PrintIntegersFor();
             PrintIntegersWhile();
             PrintIntegersDo();
             PrintExcludingFor();
+            PrintDescendingFor();
         }
 
 
@@ -69,7 +70,7 @@
 
 
             }
-                    
+
         }
 
         /*
@@ -82,35 +83,65 @@
 
         {
             int i = 40;
-            
+
 
             do
             {
-                
+
                 Console.WriteLine(i);
                 i++;
             }
             while (i < 60);
-            
+
+        }
+
+
+        /*
+        * Question 1 (D)
+        * Desc : Write a method called PrintExcludingFor
+        * using a for loop
+        * excluding numbers 46 and 48
+        */
+
+        static void PrintExcludingFor()
+
+        {
+
+            for (int i = 40; i <= 60; i++)
+            {
+
+                if (i == 46 || i == 48)
+                    Console.WriteLine("");
+
+                else
+                    Console.WriteLine(i);
+
+            }
+        }
+
+            /*
+             * Question 1 (E)
+             * Desc : Write a method called PrintDescendingFor
+             * uses a for loop
+             * putting in decending order
+             */
+
+            static void PrintDescendingFor()
+
+            {
+                for (int i = 60; i <= 40; i--)
+                {
+
+                    Console.WriteLine(i);
+
+                }
+
+
+
+
+
+            }
         }
     }
 
-    /*
-    * Question 1 (D)
-    * Desc : Write a method called PrintExcludingFor
-    * using a for loop
-    * excluding numbers 46 and 48
-    */
-
-         static void PrintExcludingFor()
-
-         {
-
-         for (int i = 40; i <= 60; i++)
-         {
-            Console.WriteLine(i);
-
-         }
-      }
-    }
 
