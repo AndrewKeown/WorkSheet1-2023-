@@ -14,6 +14,7 @@
         {
             PrintTriangle();
             PrintTriangleUpsideDown();
+            PrintTriangleGeneral();
         }
 
         static void PrintTriangle()
@@ -51,8 +52,18 @@
          * and prints the pattern with the number of rows which was input.
          * 
          * If you call the method with the argument 5, you should get
-         * the pattern from a
+         * the pattern from A
          */
 
+        static void PrintTriangleGeneral()
+        {
+            Console.WriteLine($"Please enter in the number of rows you would like");
+
+
+
+
+
+
+        }
     }
 }
