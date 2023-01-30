@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worksheet1(2023)", "Worksheet1(2023)\Worksheet1(2023).csproj", "{1622F4D6-8C72-434C-9177-00BDD434EDB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worksheet1 (Q2)", "Worksheet1 (Q2)\Worksheet1 (Q2).csproj", "{B7658141-5866-445E-B8A7-B9D94CB944E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worksheet1 (Q2)", "Worksheet1 (Q2)\Worksheet1 (Q2).csproj", "{B7658141-5866-445E-B8A7-B9D94CB944E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worksheet (Q3)", "Worksheet (Q3)\Worksheet (Q3).csproj", "{D7658A33-BFE1-4166-8F5A-48B91622BBAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B7658141-5866-445E-B8A7-B9D94CB944E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7658141-5866-445E-B8A7-B9D94CB944E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7658141-5866-445E-B8A7-B9D94CB944E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7658A33-BFE1-4166-8F5A-48B91622BBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7658A33-BFE1-4166-8F5A-48B91622BBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7658A33-BFE1-4166-8F5A-48B91622BBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7658A33-BFE1-4166-8F5A-48B91622BBAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
