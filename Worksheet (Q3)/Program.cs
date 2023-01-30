@@ -43,5 +43,16 @@
             Console.WriteLine($"##");
             Console.WriteLine($"#");
         }
+
+        /*
+         * Desc : Question 3 (C)
+         * 
+         * Write another method PrintTriangleGeneral which takes as a parameter
+         * and prints the pattern with the number of rows which was input.
+         * 
+         * If you call the method with the argument 5, you should get
+         * the pattern from a
+         */
+
     }
 }
