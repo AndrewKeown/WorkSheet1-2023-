@@ -63,8 +63,8 @@
 
             while (ans > 10)
             {
-               Console.WriteLine("#");
-               ans++;
+                Console.WriteLine("#");
+                ans++;
             }
 
             for (int i = 0; i <= ans; i++)
@@ -76,14 +76,53 @@
                 Console.WriteLine();
 
             }
-            
-            
-            
+
+            /*
+             * Desc : Question 3 (D)
+             * 
+             * Write another method PrintTriangleGeneralCharacter which takes an integer and
+             * a character as parameters and print the pattern with the number of rows
+             * of the entered character which was input.
+             * 
+             * If you call the method with the arguments (5), (#) should show the pattern from A
+             */
+
+            static void PrintTriangleGeneralCharacter()
+            {
+                {
+                    int ans;
+                    string character;
+                    Console.WriteLine($"Please enter in the number of rows you would like");
+                    ans = int.Parse(Console.ReadLine());
+                    Console.WriteLine($"Enter in your character");
+                    character = Console.ReadLine();
+
+                    while (ans > 10)
+                    {
+                        Console.WriteLine("#");
+                        ans++;
+                    }
+
+                    for (int i = 0; i <= ans; i++)
+                    {
+                        for (int j = 1; j <= i; j++)
+                        {
+                            Console.Write("#");
+                        }
+                        Console.WriteLine();
+
+                    }
+
+                }
 
 
 
 
 
+
+
+
+            }
         }
     }
 }
