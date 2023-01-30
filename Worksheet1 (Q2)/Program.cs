@@ -10,13 +10,14 @@ namespace Worksheet1__Q2_
      */
     internal class Program
     {
+        static int[] numbers = new int[5];
         static void Main(string[] args)
         {
             CountOddNumbers();
 
             AverageMinMax();
         }
-
+        
         static void CountOddNumbers()
         {
             int oddnumbers = 0;
@@ -28,7 +29,10 @@ namespace Worksheet1__Q2_
             }
             for (int i = 0; i < numbers.Length; i++)
             {
-                if ((numbers[i] % 2) == 1 || (numbers[i])
+                if ((numbers[i] % 2) == 1 || (numbers[i] % 2 == -1 ))
+                {
+                    oddnumbers = oddnumbers + 1;
+                }
                     oddnumbers = oddnumbers + 1;
             }
             Console.WriteLine($"you have entered {oddnumbers} oddnumbers");
