@@ -57,8 +57,28 @@
 
         static void PrintTriangleGeneral()
         {
+            int ans;
             Console.WriteLine($"Please enter in the number of rows you would like");
+            ans = int.Parse(Console.ReadLine());
 
+            while (ans > 10)
+            {
+               Console.WriteLine("#");
+               ans++;
+            }
+
+            for (int i = 0; i <= ans; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("#");
+                }
+                Console.WriteLine();
+
+            }
+            
+            
+            
 
 
 
