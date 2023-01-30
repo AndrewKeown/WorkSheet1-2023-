@@ -20,7 +20,6 @@
         static void Main(string[] args)
 
         {
-
             PrintIntegersFor();
             PrintIntegersWhile();
             PrintIntegersDo();
@@ -94,7 +93,6 @@
             while (i < 60);
 
         }
-
 
         /*
         * Question 1 (D)
